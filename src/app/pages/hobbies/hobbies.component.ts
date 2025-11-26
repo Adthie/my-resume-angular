@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./hobbies.component.css']
 })
 export class HobbiesComponent {
-  currentYear = new Date().getFullYear();
+  currentYear: number = new Date().getFullYear();
 }

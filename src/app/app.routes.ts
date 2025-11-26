@@ -7,7 +7,5 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'hobbies', component: HobbiesComponent },
   { path: 'contact', component: ContactComponent },
-
-  // Wildcard redirect
   { path: '**', redirectTo: '' }
 ];

@@ -1,47 +1,42 @@
-/* Hobbies Page Styles */
+.app-hobbies {
+  background: linear-gradient(to bottom right, #ffe0d0, #ffffff);
+}
+
+/* Header */
 header.site-header {
-  background-color: #ffe0d0; /* Soft orange/pink */
-  border-radius: 10px;
-  padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 25px 15px;
+  border-radius: 12px;
+  background-color: #ffe0d0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
 }
 
-header.site-header h1 {
-  color: #c85a3c;
-  margin-bottom: 10px;
-}
-
+header.site-header h1 { color: #c85a3c; font-size: 2em; }
 header.site-header nav a {
+  color: #c85a3c;
   text-decoration: none;
-  color: #c85a3c;
-  font-weight: 500;
-  margin: 0 10px;
+  font-weight: 600;
+  margin: 0 12px;
 }
+header.site-header nav a:hover { color: #8c3827; }
 
-header.site-header nav a:hover {
-  color: #8c3827;
-}
-
-main {
-  background-color: #ffffff;
+/* Hobby cards */
+.hobby-card {
+  background-color: #ffffffcc;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
 }
 
-h2 {
-  color: #c85a3c;
-  margin-bottom: 10px;
+.hobby-card:hover {
+  transform: translateY(-5px);
 }
 
-ul li {
-  margin-bottom: 5px;
-}
+h2 { margin-bottom: 10px; }
+p { color: #333; }
 
-footer {
-  text-align: center;
-  margin-top: 20px;
-  color: #555;
-  font-size: 0.9em;
-}
+/* Footer */
+footer { text-align: center; margin-top: 25px; color: #333; font-size: 0.9em; }

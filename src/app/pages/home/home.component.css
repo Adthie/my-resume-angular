@@ -1,51 +1,71 @@
-/* Home Page Styles */
+/* Wrapper for page-specific styles */
+.app-home {
+  background: linear-gradient(to bottom right, #d0e6ff, #ffffff);
+}
+
+/* Header */
 header.site-header {
-  background-color: #d0e6ff; /* Soft blue */
-  border-radius: 10px;
-  padding: 20px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 25px 15px;
+  border-radius: 12px;
+  background-color: #d0e6ff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+  position: relative;
 }
 
 header.site-header h1 {
   color: #1a4f8b;
+  margin-top: 15px;
+  font-size: 2.2em;
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #1a4f8b;
+  object-fit: cover;
   margin-bottom: 10px;
 }
 
-header.site-header p {
-  color: #333;
-}
-
+/* Navigation */
 header.site-header nav a {
-  text-decoration: none;
   color: #1a4f8b;
-  font-weight: 500;
-  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 12px;
+  transition: color 0.3s;
 }
 
 header.site-header nav a:hover {
   color: #0d2a55;
 }
 
-main {
-  background-color: #ffffff;
+/* Cards */
+.card {
+  background-color: #ffffffcc;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
 }
 
+/* Section headings */
 h2 {
   color: #1a4f8b;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-ul li {
-  margin-bottom: 5px;
-}
+/* List styling */
+ul { padding-left: 20px; }
+ul li { margin-bottom: 6px; }
 
+/* Footer */
 footer {
   text-align: center;
-  margin-top: 20px;
-  color: #555;
   font-size: 0.9em;
+  margin-top: 25px;
+  color: #333;
 }

@@ -1,24 +1,26 @@
-<header class="site-header">
-  <h1>Hobbies</h1>
+<div class="app-hobbies">
+  <header class="site-header">
+    <h1>Hobbies</h1>
+  </header>
 
-  <nav>
-    <a routerLink="/">Home</a> |
-    <a routerLink="/hobbies">Hobbies</a> |
-    <a routerLink="/contact">Contact</a>
-  </nav>
-</header>
+  <main>
+    <section class="hobby-card">
+      <h2>🏃 Running</h2>
+      <p>Morning runs to stay active.</p>
+    </section>
 
-<main>
-  <section>
-    <h2>What I enjoy</h2>
-    <ul>
-      <li>Running</li>
-      <li>Programming small projects</li>
-      <li>Reading technical articles</li>
-    </ul>
-  </section>
-</main>
+    <section class="hobby-card">
+      <h2>💻 Programming</h2>
+      <p>Building small projects and experimenting with new tech ideas.</p>
+    </section>
 
-<footer>
-  <p>© {{ currentYear }} Adthie</p>
-</footer>
+    <section class="hobby-card">
+      <h2>📖 Reading</h2>
+      <p>Reading technical articles to expand knowledge.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© {{ currentYear }} Adthie</p>
+  </footer>
+</div>
