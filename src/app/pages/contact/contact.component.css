@@ -2,7 +2,6 @@
   background: linear-gradient(to bottom right, #d0ffd6, #ffffff);
 }
 
-/* Header */
 header.site-header {
   text-align: center;
   padding: 25px 15px;
@@ -23,7 +22,6 @@ header.site-header nav a {
 
 header.site-header nav a:hover { color: #1b4628; }
 
-/* Contact cards */
 .contact-card {
   background-color: #ffffffcc;
   padding: 20px;
@@ -39,5 +37,4 @@ h2 { margin-bottom: 8px; }
 p a { color: #2e7d4a; text-decoration: none; }
 p a:hover { text-decoration: underline; }
 
-/* Footer */
 footer { text-align: center; margin-top: 25px; color: #333; font-size: 0.9em; }

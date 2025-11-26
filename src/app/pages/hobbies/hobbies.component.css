@@ -2,7 +2,6 @@
   background: linear-gradient(to bottom right, #ffe0d0, #ffffff);
 }
 
-/* Header */
 header.site-header {
   text-align: center;
   padding: 25px 15px;
@@ -21,7 +20,6 @@ header.site-header nav a {
 }
 header.site-header nav a:hover { color: #8c3827; }
 
-/* Hobby cards */
 .hobby-card {
   background-color: #ffffffcc;
   padding: 20px;
@@ -38,5 +36,4 @@ header.site-header nav a:hover { color: #8c3827; }
 h2 { margin-bottom: 10px; }
 p { color: #333; }
 
-/* Footer */
 footer { text-align: center; margin-top: 25px; color: #333; font-size: 0.9em; }

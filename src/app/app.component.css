@@ -5,7 +5,7 @@
 }
 
 .global-nav a {
-  color: #1a4f8b; /* soft blue */
+  color: #1a4f8b;
   text-decoration: none;
   margin: 0 12px;
   font-weight: 600;
@@ -13,7 +13,7 @@
 }
 
 .global-nav a:hover {
-  color: #0d2a55; /* darker blue on hover */
+  color: #0d2a55;
 }
 
 hr {
